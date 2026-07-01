@@ -1,10 +1,17 @@
-# Menu de Programas Bouquet Flores
+# Menu de Aplicativos Bouquet Flores
 
-Menu simples para acessar os três programas da Bouquet Flores hospedados no GitHub Pages:
+Menu simples para acessar os três aplicativos da Bouquet Flores hospedados no GitHub Pages:
 
 - Auxiliar de Impressão
 - Auxiliar de Catálogo
 - Auxiliar de Orçamento
+
+## O que foi incluído
+
+- Novo ícone do app **Menu de Aplicativos** em `icons/`.
+- Ícones PWA em 192x192, 512x512, Apple Touch e favicon.
+- Cards dos três aplicativos usando os ícones que ficam nos `assets` dos próprios repositórios.
+- Fallback automático: se um caminho de ícone mudar, o menu tenta outros caminhos comuns antes de mostrar o símbolo simples.
 
 ## Como publicar no GitHub Pages
 

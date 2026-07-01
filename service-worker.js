@@ -1,11 +1,17 @@
-const CACHE_NAME = "menu-programas-bouquetflores-v1";
+const CACHE_NAME = "menu-aplicativos-bouquetflores-v2";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
-  "./icons/icon.svg"
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+  "./icons/apple-touch-icon.png",
+  "./icons/favicon-32.png",
+  "./icons/favicon-16.png",
+  "./icons/favicon.ico",
+  "./icons/menu-aplicativos-icon.png"
 ];
 
 self.addEventListener("install", (event) => {

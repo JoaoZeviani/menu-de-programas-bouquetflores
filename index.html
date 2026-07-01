@@ -5,31 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#7D1225" />
   <meta name="description" content="Menu de acesso aos programas da Bouquet Flores." />
-  <title>Menu de Programas | Bouquet Flores</title>
+  <title>Menu de Aplicativos | Bouquet Flores</title>
 
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="icon" href="icons/favicon.ico" sizes="any" />
+  <link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main class="app-shell">
     <section class="hero" aria-labelledby="titulo-principal">
       <div class="brand-mark" aria-hidden="true">
-        <span>BF</span>
+        <img src="icons/icon-192.png" alt="" />
       </div>
 
       <div class="hero-text">
         <p class="eyebrow">Bouquet Flores</p>
-        <h1 id="titulo-principal">Menu de Programas</h1>
+        <h1 id="titulo-principal">Menu de Aplicativos</h1>
         <p class="subtitle">
           Acesse rapidamente os auxiliares usados na loja.
         </p>
       </div>
     </section>
 
-    <section class="program-grid" aria-label="Programas disponíveis">
+    <section class="program-grid" aria-label="Aplicativos disponíveis">
       <article class="program-card">
-        <div class="card-icon" aria-hidden="true">🖨️</div>
+        <div class="card-icon" aria-hidden="true">
+          <img
+            class="program-icon-img"
+            src="https://joaozeviani.github.io/auxiliar-impressao-bouquetflores/assets/icon.png"
+            data-fallbacks="https://joaozeviani.github.io/auxiliar-impressao-bouquetflores/assets/app-icon.png|https://joaozeviani.github.io/auxiliar-impressao-bouquetflores/assets/icons/app-icon-192.png"
+            alt=""
+          />
+          <span class="program-icon-fallback">🖨️</span>
+        </div>
         <div class="card-content">
           <h2>Auxiliar de Impressão</h2>
           <p>Preenchimento e impressão de pedidos e cartões.</p>
@@ -40,7 +50,15 @@
       </article>
 
       <article class="program-card">
-        <div class="card-icon" aria-hidden="true">📖</div>
+        <div class="card-icon" aria-hidden="true">
+          <img
+            class="program-icon-img"
+            src="https://joaozeviani.github.io/auxiliar-catalogo-bouquetflores/assets/icons/app-icon-192.png"
+            data-fallbacks="https://joaozeviani.github.io/auxiliar-catalogo-bouquetflores/assets/icon.png|https://joaozeviani.github.io/auxiliar-catalogo-bouquetflores/assets/app-icon.png"
+            alt=""
+          />
+          <span class="program-icon-fallback">📖</span>
+        </div>
         <div class="card-content">
           <h2>Auxiliar de Catálogo</h2>
           <p>Cadastro de produtos, organização do catálogo e geração de PDF.</p>
@@ -51,7 +69,15 @@
       </article>
 
       <article class="program-card">
-        <div class="card-icon" aria-hidden="true">💐</div>
+        <div class="card-icon" aria-hidden="true">
+          <img
+            class="program-icon-img"
+            src="https://joaozeviani.github.io/auxiliar-orcamento-bouquetflores/assets/icon.png"
+            data-fallbacks="https://joaozeviani.github.io/auxiliar-orcamento-bouquetflores/assets/app-icon.png|https://joaozeviani.github.io/auxiliar-orcamento-bouquetflores/assets/icons/app-icon-192.png|https://joaozeviani.github.io/auxiliar-orcamento-bouquetflores/assets/logo_bouquet_flores.png"
+            alt=""
+          />
+          <span class="program-icon-fallback">💐</span>
+        </div>
         <div class="card-content">
           <h2>Auxiliar de Orçamento</h2>
           <p>Criação de orçamentos florais personalizados para clientes.</p>

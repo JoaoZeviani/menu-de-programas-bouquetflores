@@ -1,7 +1,7 @@
 {
-  "name": "Menu de Programas Bouquet Flores",
+  "name": "Menu de Aplicativos Bouquet Flores",
   "short_name": "Menu Bouquet",
-  "description": "Menu de acesso aos programas da Bouquet Flores.",
+  "description": "Menu de acesso aos aplicativos da Bouquet Flores.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -9,9 +9,15 @@
   "theme_color": "#7D1225",
   "icons": [
     {
-      "src": "icons/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
