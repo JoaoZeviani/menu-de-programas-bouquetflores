@@ -1,4 +1,4 @@
-const CACHE_NAME = "menu-aplicativos-bouquetflores-v2";
+const CACHE_NAME = "menu-aplicativos-bouquetflores-v3";
 const ASSETS = [
   "./",
   "./index.html",

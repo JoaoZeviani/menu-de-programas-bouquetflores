@@ -29,3 +29,10 @@ Menu simples para acessar os três aplicativos da Bouquet Flores hospedados no G
 Depois de alguns minutos, o menu ficará disponível em um endereço parecido com:
 
 `https://joaozeviani.github.io/menu-programas-bouquetflores/`
+
+
+## Fontes
+
+O texto “Bouquet Flores” usa a fonte Gistesy. O CSS tenta carregar a fonte via webfont e também aceita a fonte instalada localmente com o nome `Gistesy`.
+
+O título “Menu de Aplicativos” usa a mesma família visual de interface dos aplicativos, baseada em Clear Sans/Arial/Helvetica, porém em tamanho maior.

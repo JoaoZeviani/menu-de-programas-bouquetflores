@@ -1,3 +1,11 @@
+@import url("https://fonts.cdnfonts.com/css/gistesy");
+
+@font-face {
+  font-family: "Gistesy";
+  src: local("Gistesy"), local("Gistesy Regular");
+  font-display: swap;
+}
+
 :root {
   --marsala: #7D1225;
   --marsala-dark: #520918;
@@ -11,6 +19,8 @@
   --radius-xl: 28px;
   --radius-lg: 22px;
   --radius-md: 16px;
+  --font-title: "Clear Sans", "Segoe UI", Arial, sans-serif;
+  --font-brand: "Gistesy", "Brush Script MT", "Segoe Script", cursive;
 }
 
 * {
@@ -95,19 +105,30 @@ body::before {
 .eyebrow {
   margin: 0 0 4px;
   color: var(--bronze);
-  font-weight: 800;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-size: 0.8rem;
+  font-family: var(--font-brand);
+  font-size: clamp(1.3rem, 3.2vw, 1.8rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 0.9;
+  text-transform: none;
+}
+
+.bouquet-wordmark {
+  font-family: var(--font-brand);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 0.9;
+  text-transform: none;
 }
 
 h1 {
   margin: 0;
   color: var(--marsala);
-  font-family: "Magnólia Script", "Brush Script MT", cursive;
-  font-size: clamp(3rem, 8vw, 5.8rem);
-  font-weight: 500;
-  line-height: 0.95;
+  font-family: var(--font-title);
+  font-size: clamp(2.7rem, 6.4vw, 4.75rem);
+  font-weight: 900;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
 }
 
 .subtitle {
@@ -210,7 +231,10 @@ h1 {
 .program-card h2 {
   margin: 0;
   color: var(--marsala);
+  font-family: var(--font-title);
   font-size: 1.45rem;
+  font-weight: 900;
+  letter-spacing: -0.018em;
   line-height: 1.18;
 }
 
@@ -260,6 +284,12 @@ h1 {
 .footer p {
   margin: 0;
   font-weight: 800;
+}
+
+.footer .bouquet-wordmark {
+  color: var(--bronze);
+  font-size: 1.65em;
+  vertical-align: -0.18em;
 }
 
 .footer .small {
