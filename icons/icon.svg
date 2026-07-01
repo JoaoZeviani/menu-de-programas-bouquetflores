@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ícone Bouquet Flores">
+  <rect width="512" height="512" rx="112" fill="#7D1225"/>
+  <circle cx="256" cy="256" r="174" fill="#F5EBE3" opacity="0.96"/>
+  <path d="M256 118c27 44 27 84 0 121-27-37-27-77 0-121Z" fill="#805630"/>
+  <path d="M165 169c51 7 83 31 95 75-46 3-78-22-95-75Z" fill="#7D1225" opacity="0.9"/>
+  <path d="M347 169c-17 53-49 78-95 75 12-44 44-68 95-75Z" fill="#7D1225" opacity="0.9"/>
+  <path d="M174 320c44-30 84-31 121-4-37 28-77 30-121 4Z" fill="#805630" opacity="0.92"/>
+  <path d="M338 320c-44 26-84 25-121-4 37-25 77-24 121 4Z" fill="#805630" opacity="0.92"/>
+  <text x="256" y="294" text-anchor="middle" font-family="Georgia, serif" font-size="112" font-weight="700" fill="#7D1225">BF</text>
+</svg>
