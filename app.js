@@ -1,4 +1,4 @@
-const APP_VERSION = "20260701-4";
+const APP_VERSION = "20260701-5";
 const PROGRAM_LINKS = document.querySelectorAll(".card-button");
 const PROGRAM_ICONS = document.querySelectorAll(".program-icon-img");
 

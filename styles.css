@@ -103,13 +103,13 @@ body::before {
 }
 
 .eyebrow {
-  margin: 0 0 4px;
+  margin: 0 0 10px;
   color: var(--bronze);
   font-family: var(--font-brand);
-  font-size: clamp(1.3rem, 3.2vw, 1.8rem);
+  font-size: clamp(3.1rem, 8vw, 5.8rem);
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 0.9;
+  line-height: 0.82;
   text-transform: none;
 }
 
@@ -125,10 +125,10 @@ h1 {
   margin: 0;
   color: var(--marsala);
   font-family: var(--font-title);
-  font-size: clamp(2.7rem, 6.4vw, 4.75rem);
+  font-size: clamp(1.9rem, 4.3vw, 3.15rem);
   font-weight: 900;
-  letter-spacing: -0.055em;
-  line-height: 0.98;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
 }
 
 .subtitle {
@@ -288,8 +288,8 @@ h1 {
 
 .footer .bouquet-wordmark {
   color: var(--bronze);
-  font-size: 1.65em;
-  vertical-align: -0.18em;
+  font-size: 2.1em;
+  vertical-align: -0.24em;
 }
 
 .footer .small {
@@ -328,6 +328,16 @@ h1 {
     height: 68px;
     border-width: 2px;
     border-radius: 19px;
+  }
+
+
+  .eyebrow {
+    font-size: clamp(2.35rem, 12vw, 4.1rem);
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-size: clamp(1.55rem, 7vw, 2.35rem);
   }
 
   .program-card {
