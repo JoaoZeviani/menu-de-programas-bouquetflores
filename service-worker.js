@@ -1,17 +1,17 @@
-const CACHE_NAME = "menu-aplicativos-bouquetflores-v5";
+const CACHE_NAME = "menu-aplicativos-bouquetflores-v6";
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=20260701-5",
-  "./app.js?v=20260701-5",
-  "./manifest.webmanifest?v=20260701-5",
-  "./icons/icon-192.png?v=20260701-5",
-  "./icons/icon-512.png?v=20260701-5",
-  "./icons/apple-touch-icon.png?v=20260701-5",
-  "./icons/favicon-32.png?v=20260701-5",
-  "./icons/favicon-16.png?v=20260701-5",
-  "./icons/favicon.ico?v=20260701-5",
-  "./icons/menu-aplicativos-icon.png?v=20260701-5"
+  "./styles.css?v=20260701-6",
+  "./app.js?v=20260701-6",
+  "./manifest.webmanifest?v=20260701-6",
+  "./icons/icon-192.png?v=20260701-6",
+  "./icons/icon-512.png?v=20260701-6",
+  "./icons/apple-touch-icon.png?v=20260701-6",
+  "./icons/favicon-32.png?v=20260701-6",
+  "./icons/favicon-16.png?v=20260701-6",
+  "./icons/favicon.ico?v=20260701-6",
+  "./icons/menu-aplicativos-icon.png?v=20260701-6"
 ];
 
 self.addEventListener("install", (event) => {
