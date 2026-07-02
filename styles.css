@@ -7,7 +7,7 @@
 }
 
 :root {
-  --marsala: #7D1225;
+  --marsala: #4D1225;
   --marsala-dark: #520918;
   --cream: #F5EBE3;
   --cream-soft: #FFF8F3;
@@ -39,7 +39,7 @@ body {
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(128, 86, 48, 0.22), transparent 34rem),
-    radial-gradient(circle at bottom right, rgba(125, 18, 37, 0.16), transparent 32rem),
+    radial-gradient(circle at bottom right, rgba(77, 18, 37, 0.16), transparent 32rem),
     linear-gradient(135deg, var(--cream) 0%, var(--cream-soft) 100%);
 }
 
@@ -50,7 +50,7 @@ body::before {
   pointer-events: none;
   opacity: 0.45;
   background-image:
-    linear-gradient(120deg, rgba(125, 18, 37, 0.05) 0 1px, transparent 1px 100%),
+    linear-gradient(120deg, rgba(77, 18, 37, 0.05) 0 1px, transparent 1px 100%),
     linear-gradient(30deg, rgba(128, 86, 48, 0.05) 0 1px, transparent 1px 100%);
   background-size: 42px 42px;
 }
@@ -88,7 +88,7 @@ body::before {
   border-radius: 26px;
   background: var(--marsala);
   border: 3px solid rgba(128, 86, 48, 0.34);
-  box-shadow: 0 14px 34px rgba(125, 18, 37, 0.28);
+  box-shadow: 0 14px 34px rgba(77, 18, 37, 0.28);
 }
 
 .brand-mark img {
@@ -172,7 +172,7 @@ h1 {
 .program-card:hover,
 .program-card:focus-within {
   transform: translateY(-4px);
-  border-color: rgba(125, 18, 37, 0.35);
+  border-color: rgba(77, 18, 37, 0.35);
   box-shadow: 0 24px 56px rgba(82, 9, 24, 0.18);
 }
 
@@ -186,7 +186,7 @@ h1 {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 22px;
-  background: linear-gradient(145deg, rgba(125, 18, 37, 0.12), rgba(128, 86, 48, 0.12));
+  background: linear-gradient(145deg, rgba(77, 18, 37, 0.12), rgba(128, 86, 48, 0.12));
   border: 1px solid rgba(128, 86, 48, 0.18);
   box-shadow: 0 12px 22px rgba(82, 9, 24, 0.10);
   font-size: 2rem;
@@ -260,7 +260,7 @@ h1 {
   background: linear-gradient(135deg, var(--marsala), var(--marsala-dark));
   font-weight: 800;
   text-decoration: none;
-  box-shadow: 0 12px 22px rgba(125, 18, 37, 0.22);
+  box-shadow: 0 12px 22px rgba(77, 18, 37, 0.22);
   transition: transform 160ms ease, filter 160ms ease;
 }
 
